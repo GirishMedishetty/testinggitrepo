@@ -5,6 +5,7 @@ events:
   # '&pull_request' is a YAML anchor
   pull_request:
     - trustAnyone: false
+      trustCollaborators: false
       paths:
       	disallowed:
           - ".github/**"
@@ -16,6 +17,7 @@ events:
 
   push:
     - trustAnyone: false
+      trustCollaborators: false
       paths:
       	disallowed:
           - ".github/**"
