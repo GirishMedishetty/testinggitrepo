@@ -25,3 +25,8 @@ events:
     - trustedUserNames:
         - "GirishMedishetty"
 
+anyEvent:
+  trustAnyone: false
+  trustCollaborators: false
+  trustedUserNames: []
+
