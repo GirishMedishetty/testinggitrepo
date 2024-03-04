@@ -8,7 +8,7 @@ events:
       trustCollaborators: false
       paths:
       	disallowed:
-          - ".github/**"
+          - ".github/*"
           - ".github/protected-workflows.yml" # <-- Exteremly important. Only certain users should be able to change this file.
     
     # Authorize "repo-owner" regardless of what paths were changed.
@@ -20,7 +20,7 @@ events:
       trustCollaborators: false
       paths:
       	disallowed:
-          - ".github/**"
+          - ".github/*"
           - ".github/protected-workflows.yml" # <-- Exteremly important. Only certain users should be able to change this file.
     
     # Authorize "repo-owner" regardless of what paths were changed.
