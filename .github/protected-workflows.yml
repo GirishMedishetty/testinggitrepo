@@ -4,7 +4,7 @@ events:
   # 'pull_request' is the Github event name.
   # '&pull_request' is a YAML anchor
   pull_request:
-    - trustAnyone: true
+    - trustAnyone: false
       paths:
       	disallowed:
           - ".github/**"
@@ -15,7 +15,7 @@ events:
         - "GirishMedishetty"
 
   push:
-    - trustAnyone: true
+    - trustAnyone: false
       paths:
       	disallowed:
           - ".github/**"
